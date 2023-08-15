@@ -24,6 +24,13 @@ body {
   text-align: center;
 }
 
+.title,
+.content,
+.button-container {
+  padding: 0.5rem 0.5rem;
+  margin: 10px;
+}
+
 button {
   display: block;
   background: white;
