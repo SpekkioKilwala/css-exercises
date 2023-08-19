@@ -31,12 +31,12 @@ body {
 /* My additions start here */
 
 .header {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 900;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 16px;
 }
 
 body {
@@ -77,10 +77,12 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   gap:20px;
+  margin: 40px;
 }
 
 .card {
   width: 300px;
+  /* height: 300px; */
 }
 
 .footer {
