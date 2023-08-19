@@ -25,3 +25,52 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* My added lines */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* The content needs to align ITSELF in the center of the screen */
+  /* Note higher layer (top, content, bottom) vs. the center spread */
+  align-self: center;
+  align-items: center;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.header,
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eee
+}
+
+.left-links,
+.right-links {
+  display:flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
