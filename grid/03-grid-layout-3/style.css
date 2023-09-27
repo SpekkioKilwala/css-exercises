@@ -9,6 +9,7 @@
   display: grid;
   gap: 4px;
   grid-template-columns: 1fr 4fr;
+  grid-template-rows: 2fr 1fr 10fr 1fr;
 }
 
 .container div {
@@ -21,6 +22,8 @@
 
 .header {
   background-color: #393f4d;
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
 }
 
 .menu ul,
@@ -30,6 +33,7 @@
 
 .sidebar {
   background-color: #C50208;
+  grid-row: 2 / -2;
 }
 
 .sidebar .photo {
@@ -50,6 +54,7 @@
 
 .nav {
   background-color: #C50208;
+  grid-column: 2 / -1;
 }
 
 .nav ul li {
@@ -87,6 +92,7 @@
 
 .footer {
   background-color: #393f4d;
+  grid-column: 1 / -1;
 }
 
 .footer p {
