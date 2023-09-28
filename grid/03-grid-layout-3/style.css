@@ -79,6 +79,11 @@
   font-weight: normal;
 }
 
+.sidebar > * {
+  display: grid;
+  place-content: center;
+}
+
 .nav {
   background-color: #C50208;
   grid-area: nav;
