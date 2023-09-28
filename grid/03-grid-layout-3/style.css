@@ -35,11 +35,14 @@
 
 .menu {
   grid-column: 3;
+  display: grid;
+  align-items: center;
 }
 
 .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  
 }
 
 .menu ul,
