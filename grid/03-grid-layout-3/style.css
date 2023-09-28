@@ -44,11 +44,6 @@
   grid-auto-flow: column;
 }
 
-.menu ul li:first-child {
-  color: #C50208;
-  grid-column: 2 / 3;
-}
-
 .menu ul,
 .menu li {
   font-size: 16px;
