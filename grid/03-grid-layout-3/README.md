@@ -26,10 +26,10 @@ o The `ul` inside the menu element contains another grid
 o The `ul` inside the nav element contains another grid
 o The sidebar element has a gap of 50px
 o The text elements in the sidebar are centered with grid
-- The article element should set grid columns using `repeat` along with the `auto-fit` and `minmax` properties
-- The article columns should have a minimum value of 250px and a maximum of 1fr unit
+o The article element should set grid columns using `repeat` along with the `auto-fit` and `minmax` properties
+o The article columns should have a minimum value of 250px and a maximum of 1fr unit
 o The article element has a gap of 15px
-- The card elements inside the article container have a height of 200px
+o The card elements inside the article container have a height of 200px
 o The header and footer span across both columns
 o The sidebar only spans across the first column
 o The nav and article elements only span across the second column
