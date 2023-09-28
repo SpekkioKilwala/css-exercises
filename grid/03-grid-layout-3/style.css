@@ -45,7 +45,7 @@
 }
 
 .menu ul li:first-child {
-  /* color: #C50208; */
+  color: #C50208;
   grid-column: 2 / 3;
 }
 
